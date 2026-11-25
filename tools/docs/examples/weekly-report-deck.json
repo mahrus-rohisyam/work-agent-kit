@@ -1,0 +1,44 @@
+{
+  "output": "documents/Example Weekly Report.pptx",
+  "slides": [
+    { "type": "cover", "title": ["Weekly Report", "Project Atlas"], "subtitle": ["Week 2, 12 - 16 January 2026", "Prepared by: Project Manager"] },
+    {
+      "type": "two-column", "title": "Summary",
+      "left": { "heading": "Done", "color": "blue", "items": ["Login and session handling merged", "Test environment ready for the team", "Data import reviewed with the client"] },
+      "right": { "heading": "Attention", "color": "red", "items": ["Payment API access not granted yet", "Two bugs reopened after regression test", { "text": "Both are tracked on the board.", "style": "plain" }] },
+      "note": "Status: on track, one dependency to resolve before week 4."
+    },
+    { "type": "divider", "title": "Activities" },
+    {
+      "type": "table", "title": "Activities this week", "widths": [8, 42, 20, 30],
+      "rows": [
+        ["No.", "Activity", "Status", "Notes"],
+        ["1", "Login and session handling", "Done", "Merged on Tuesday"],
+        ["2", "Data import", "In progress", "Waiting for a sample file"],
+        ["3", "Test environment", "Done", "Shared with the team"]
+      ]
+    },
+    {
+      "type": "flow", "title": "Release process",
+      "steps": [
+        { "num": "1", "title": "Plan", "text": "Agree on the scope" },
+        { "num": "2", "title": "Build", "text": "Develop and review", "color": "blue" },
+        { "num": "3", "title": "Test", "text": "Regression and UAT", "color": "orange" },
+        { "num": "4", "title": "Release", "text": "Deploy and monitor", "color": "green" }
+      ],
+      "left": { "heading": "Strengths", "color": "green", "items": ["Every change is reviewed", "Rollback is scripted"] },
+      "right": { "heading": "Risks", "color": "red", "items": ["UAT depends on client availability"] }
+    },
+    {
+      "type": "icon-grid", "title": "What is in scope", "columns": 3,
+      "items": [
+        { "title": "Accounts", "text": "Login, roles and sessions" },
+        { "title": "Import", "text": "CSV upload with validation" },
+        { "title": "Reports", "text": "Weekly export as PDF" }
+      ],
+      "note": "Note: icons are optional PNG files with a transparent background."
+    },
+    { "type": "bullets", "title": "Plan for next week", "items": ["Finish the data import", "Close the two reopened bugs", "Agree on UAT dates with the client"] },
+    { "type": "closing", "title": "Thank you" }
+  ]
+}

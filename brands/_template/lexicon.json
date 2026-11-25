@@ -1,0 +1,11 @@
+{
+  "banned": [],
+  "spellings": {},
+  "allow": [],
+  "rules": {
+    "allow_em_dash": false,
+    "allow_exclamation": false,
+    "allow_emoji": false,
+    "max_sentence_words": 20
+  }
+}

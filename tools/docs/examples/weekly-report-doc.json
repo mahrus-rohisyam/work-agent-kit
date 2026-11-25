@@ -1,0 +1,27 @@
+{
+  "output": "outputs/Example Weekly Report.docx",
+  "blocks": [
+    { "type": "heading", "level": 1, "text": "Weekly Report: Project Atlas" },
+    {
+      "type": "info", "widths": [18, 32, 18, 32],
+      "rows": [
+        ["Period:", "12 - 16 January 2026", "Prepared by:", "Project Manager"],
+        ["Project:", "Atlas", "Date:", "16 January 2026"]
+      ]
+    },
+    { "type": "heading", "level": 2, "text": "Summary" },
+    { "type": "paragraph", "text": "Login and session handling is merged and the test environment is ready. The data import is waiting for a sample file from the client." },
+    { "type": "heading", "level": 2, "text": "Activities" },
+    {
+      "type": "table", "widths": [8, 42, 20, 30],
+      "header": ["No.", "Activity", "Status", "Notes"],
+      "rows": [
+        ["1", "Login and session handling", "Done", "Merged on Tuesday"],
+        ["2", "Data import", "In progress", "Waiting for a sample file"],
+        ["3", "Test environment", "Done", "Shared with the team"]
+      ]
+    },
+    { "type": "heading", "level": 2, "text": "Next week" },
+    { "type": "bullets", "items": ["Finish the data import", "Close the two reopened bugs", "Agree on UAT dates with the client"] }
+  ]
+}

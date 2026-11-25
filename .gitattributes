@@ -1,0 +1,6 @@
+* text=auto eol=lf
+*.sh text eol=lf
+*.py text eol=lf
+*.pptx binary
+*.docx binary
+*.woff2 binary

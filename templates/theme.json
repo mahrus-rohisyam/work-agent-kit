@@ -1,0 +1,44 @@
+{
+  "identity": { "organization": "Your Organization", "logo": "", "logoDark": "" },
+  "fonts": { "heading": "Calibri", "body": "Calibri" },
+  "colors": {
+    "primary": "1F3A5F",
+    "accent": "2563EB",
+    "text": "404040",
+    "light": "F2F4F7",
+    "white": "FFFFFF",
+    "arrow": "BFBFBF",
+    "red": "C62828",
+    "blue": "2563EB",
+    "navy": "1F3A5F",
+    "grey": "595959",
+    "green": "2E7D32",
+    "orange": "B45309"
+  },
+  "deck": {
+    "template": "templates/pptx/Default Deck.pptx",
+    "cover": { "layout": "Cover", "title": 0, "subtitle": 1 },
+    "divider": { "layout": "Divider", "title": 0 },
+    "content": { "layout": "Content", "title": 0 },
+    "closing": { "layout": "Closing", "title": 0 },
+    "body": { "left": 50, "top": 112, "width": 860, "bottom": 490 },
+    "tableHeader": "primary",
+    "tableHeaderText": "white"
+  },
+  "doc": {
+    "template": "templates/docx/Default Document.docx",
+    "styles": {
+      "heading1": "Heading 1",
+      "heading2": "Heading 2",
+      "heading3": "Heading 3",
+      "body": "Body Text",
+      "bullet": "List Bullet",
+      "number": "List Number",
+      "tableHeader": "Table Header",
+      "tableText": "Table Text"
+    },
+    "labelFill": "E5E7EB",
+    "headerFill": "primary",
+    "headerText": "white"
+  }
+}

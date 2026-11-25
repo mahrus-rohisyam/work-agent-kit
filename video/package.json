@@ -1,0 +1,27 @@
+{
+  "name": "marketing-video",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "sync": "node scripts/sync-brands.mjs",
+    "studio": "pnpm sync && remotion studio src/index.tsx",
+    "render": "pnpm sync && remotion render src/index.tsx",
+    "typecheck": "pnpm sync && tsc"
+  },
+  "dependencies": {
+    "@fontsource-variable/inter": "^5.3.0",
+    "@remotion/cli": "^4.0.541",
+    "@remotion/fonts": "^4.0.541",
+    "@remotion/media-utils": "^4.0.541",
+    "@remotion/zod-types": "^4.0.541",
+    "lucide-react": "1.63.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "^4.0.541",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "typescript": "^7.0.2"
+  }
+}

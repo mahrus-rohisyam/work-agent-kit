@@ -1,0 +1,18 @@
+{
+  "brand": "example",
+  "theme": "light",
+  "cta": "Now add your own brand.",
+  "endCardSec": 3,
+  "scenes": [
+    { "kind": "opener", "sec": 3, "title": "A video from *one* JSON file.", "sub": "No footage needed for this test." },
+    {
+      "kind": "grid", "sec": 4, "title": "Four files drive it.",
+      "items": [
+        { "title": "brand.md", "text": "Voice and claims", "icon": "BookOpen" },
+        { "title": "tokens.json", "text": "Colors and logos", "icon": "Palette" },
+        { "title": "lexicon.json", "text": "Words to avoid", "icon": "SpellCheck" },
+        { "title": "tour.json", "text": "The scenes", "icon": "Clapperboard" }
+      ]
+    }
+  ]
+}

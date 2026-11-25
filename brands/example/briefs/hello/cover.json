@@ -1,0 +1,8 @@
+{
+  "brand": "example",
+  "theme": "light",
+  "eyebrow": "Test render",
+  "title": "A cover from *one* spec",
+  "sub": "Edit cover.json and render it again.",
+  "footer": "Example"
+}

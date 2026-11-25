@@ -1,0 +1,7 @@
+{
+  "brand": "example",
+  "theme": "light",
+  "eyebrow": "Test render",
+  "headline": "This card came from a JSON file.",
+  "body": "Edit og.json and render it again."
+}

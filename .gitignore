@@ -1,0 +1,52 @@
+# Credentials
+.env
+*.env
+.env.*
+!.env.example
+credentials/
+secrets/
+keys/
+
+# Your own context and branding (stay on your machine)
+profile.md
+templates/theme.local.json
+templates/private/
+
+# Work output and material, often client data
+documents/
+outputs/
+reports/
+moms/
+tools/docs/specs/
+references/raw/*
+!references/raw/.gitkeep
+
+# Claude Code personal settings
+.claude/settings.local.json
+CLAUDE.local.md
+
+# Marketing: generated or large
+video/node_modules/
+video/out/
+video/public/brands/
+video/public/footage/
+video/public/music/
+video/public/voice/
+video/src/brands.generated.json
+brands/*/out/
+brands/*/footage/
+tools/.venv-tts/
+tools/tts-models/
+tools/whisper-models/
+
+# Misc
+logs/
+*.log
+*.tmp
+*.temp
+~$*
+__pycache__/
+.venv/
+.DS_Store
+Thumbs.db
+desktop.ini
